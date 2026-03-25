@@ -1,37 +1,37 @@
-DocDash AI — Week 1 Report
+DocDash AI — Weekly Report
 
-By Laxmi (Team Lead)
+By Laxmi (Team Lead):
 Defined overall project direction and workflow
 Coordinated team roles and responsibilities
 Initiated documentation and planning structure
 
-By Likhitha K (Customer Contact Lead)
+By Likhitha K (Customer Contact Lead):
 Created and distributed Google Form survey
 Collected initial responses from target users (college staff, NGOs, healthcare staff)
 Started analyzing customer needs and pain points
 
-By Swathi Shubas C (Frontend Developer)
+By Swathi Shubas C (Frontend Developer):
 Began designing UI structure for dashboard interface
 Worked on basic layout for document upload and visualization screens
 
-By Varsha (Development Lead)
+By Varsha (Development Lead):
 Defined system architecture (document → data → dashboard pipeline)
 Planned modules for extraction, KPI identification, and visualization
 
-By Nithya Jeevan M (Backend Developer)
+By Nithya Jeevan M (Backend Developer):
 Started backend planning for document processing
 Researched methods for extracting text, tables, and numerical data
 
-By Pramod V (Marketing Lead)
+By Pramod V (Marketing Lead):
 Defined Ideal Customer Profile (ICP)
 Identified target users (administrators, managers, analysts)
 Drafted product positioning and value proposition
 
-By Rahul Kattimani (Test Lead)
+By Rahul Kattimani (Test Lead):
 Identified key testing areas (data accuracy, dashboard output)
 Planned initial testing strategy for future modules
 
-Next Week Plan
+Next Week Plan:
 Build Document Upload & Processing module
 Implement data extraction (text + tables)
 Start KPI identification system
