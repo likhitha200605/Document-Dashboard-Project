@@ -61,3 +61,6 @@ AC5 – The user can download or export the dashboard.
 
 # 5. Example Use Case
 
+Input: User uploads a PDF report containing numerical data.
+Process: The system extracts the data and analyzes it.
+Output: The system generates a visual dashboard with charts and key insights.
