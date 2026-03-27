@@ -1,41 +1,68 @@
+DocDash AI — Weekly Report 
+By Laxmi (Team Lead)
+Defined overall project idea and direction
+Initiated project documentation
 
-DocDash AI — Weekly Report
+By Likhitha K (Customer Contact Lead)
+Designed and created Google Form survey
+Distributed survey to target users (college staff, NGOs, healthcare staff)
+Began collecting initial responses
 
-By Laxmi 
-Defined overall project direction and workflow
-Coordinated team roles and responsibilities
-Initiated documentation and planning structure
+By Swathi Shubas C (Frontend Developer)
+Started designing basic UI structure
+Created rough layout for dashboard interface
 
-By Likhitha K 
-Created and distributed Google Form survey
-Collected initial responses from target users (college staff, NGOs, healthcare staff)
-Started analyzing customer needs and pain points
+By Varsha (Development Lead)
+Initiated backend architecture planning
+Worked on documentation (PPT, reports)
 
-By Swathi Shubas C 
-Began designing UI structure for dashboard interface
-Worked on basic layout for document upload and visualization screens
+By Nithya Jeevan M (Backend Developer)
+Began research on document processing methods
+Explored techniques for extracting text and tables
 
-By Varsha 
-Designing a backend structure of the project.
-Documentation works- ppt, reports etc.
-
-By Nithya Jeevan M 
-Started backend planning for document processing
-Researched methods for extracting text, tables, and numerical data
-
-By Pramod V 
+By Pramod V (Marketing Lead)
 Defined Ideal Customer Profile (ICP)
 Identified target users (administrators, managers, analysts)
 
-By Rahul Kattimani 
-Identified key testing areas (data accuracy, dashboard output)
-Planned initial testing strategy for future modules
+By Rahul Kattimani (Test Lead)
+Identified key testing areas
+Planned basic testing approach for future modules
 
-Next Week Plan:
-Build Document Upload & Processing module
-Implement data extraction (text + tables)
-Start KPI identification system
-Develop initial dashboard visualization (charts: bar, pie, line)
-Generate automated summary from extracted insights
-Continue improving UI/UX for simplicity and usability
-Begin basic testing of data flow
+DocDash AI — Weekly Report 
+
+By Laxmi (Team Lead)
+Monitored team progress and ensured coordination
+Refined workflow based on initial development
+
+By Likhitha K (Customer Contact Lead)
+Collected and reviewed survey responses
+Identified common user needs and pain points
+
+By Swathi Shubas C (Frontend Developer)
+Improved UI design based on initial ideas
+Built basic frontend screens for dashboard and upload
+
+By Varsha (Development Lead)
+Finalized backend structure for prototype
+Updated documentation with current progress
+
+By Nithya Jeevan M (Backend Developer)
+Developed initial prototype for document upload
+Structured output data for display
+
+By Pramod V (Marketing Lead)
+Refined target user understanding using survey data
+Identified key problems the product should solve
+
+By Rahul Kattimani (Test Lead)
+Checked initial data flow and functionality
+Identified areas needing improvement
+
+
+Next Step 
+Improve prototype (not full system yet)
+Enhance data extraction accuracy (text + tables)
+Start simple KPI identification
+Improve dashboard visuals (basic charts)
+Test prototype more thoroughly
+Continue UI/UX improvements
