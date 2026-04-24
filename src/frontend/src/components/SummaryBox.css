@@ -1,0 +1,28 @@
+.summary-box {
+  background: var(--accent);
+  border-radius: var(--radius);
+  padding: 28px 32px;
+  color: #fff;
+}
+
+.summary-header {
+  display: flex; align-items: center;
+  gap: 10px; margin-bottom: 14px; flex-wrap: wrap;
+}
+.summary-icon { color: var(--accent2); font-size: 16px; }
+.summary-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 12px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 2px;
+  color: rgba(255,255,255,0.6);
+}
+.summary-domain {
+  margin-left: auto;
+  font-size: 11px; color: rgba(255,255,255,0.4);
+  text-transform: capitalize; letter-spacing: 0.5px;
+}
+
+.summary-text {
+  font-size: 15px; line-height: 1.9;
+  color: rgba(255,255,255,0.88);
+}
