@@ -1,0 +1,69 @@
+{
+    "budget_speech.pdf": {
+      "metrics": {
+        "economic_growth_rate": 7,
+        "fiscal_deficit_target": 5.1,
+        "capital_expenditure_allocation": 1220000,
+        "infrastructure_investment": 1000000,
+        "tax_revenue_growth": 12
+      },
+      "rich_metrics": [
+        {"key": "economic_growth_rate", "label": "Economic Growth Rate", "value": 7, "unit": "", "category": "financial", "confidence": 0.97},
+        {"key": "fiscal_deficit_target", "label": "Fiscal Deficit Target", "value": 5.1, "unit": "", "category": "financial", "confidence": 0.96},
+        {"key": "capital_expenditure_allocation", "label": "Capital Expenditure Allocation", "value": 1220000, "unit": "", "category": "financial", "confidence": 0.96},
+        {"key": "infrastructure_investment", "label": "Infrastructure Investment", "value": 1000000, "unit": "", "category": "financial", "confidence": 0.95},
+        {"key": "tax_revenue_growth", "label": "Tax Revenue Growth", "value": 12, "unit": "", "category": "financial", "confidence": 0.95},
+        {"key": "biopharma_investment", "label": "Biopharma Investment", "value": 10000, "unit": "", "category": "financial", "confidence": 0.94},
+        {"key": "textile_scheme_outlay", "label": "Textile Scheme Outlay", "value": 40000, "unit": "", "category": "financial", "confidence": 0.94},
+        {"key": "employment_generation", "label": "Employment Generation", "value": 250, "unit": "", "category": "other", "confidence": 0.93},
+        {"key": "different_sectors", "label": "Different Sectors", "value": 300, "unit": "", "category": "other", "confidence": 0.70},
+        {"key": "various_initiatives", "label": "Various Initiatives", "value": 150, "unit": "", "category": "other", "confidence": 0.68},
+        {"key": "growth_expected", "label": "Growth Expected", "value": 7, "unit": "", "category": "financial", "confidence": 0.75}
+      ],
+      "summary": "This budget document highlights key financial priorities. Economic growth is projected at 7% with a fiscal deficit target of 5.1%. Significant investments are allocated towards infrastructure and capital expenditure, indicating a strong focus on economic expansion and development.",
+      "domain": "finance"
+    },
+  
+    "0ANNUALREPORT202425DA4AE08189C848C8846718B080F2A0A9.pdf": {
+      "metrics": {
+        "gdp_growth": 6.5,
+        "inflation_rate": 5.4,
+        "bank_credit_growth": 15,
+        "foreign_reserves": 650
+      },
+      "rich_metrics": [
+        {"key": "gdp_growth", "label": "GDP Growth", "value": 6.5, "unit": "", "category": "financial", "confidence": 0.98},
+        {"key": "inflation_rate", "label": "Inflation Rate", "value": 5.4, "unit": "", "category": "financial", "confidence": 0.97},
+        {"key": "bank_credit_growth", "label": "Bank Credit Growth", "value": 15, "unit": "", "category": "financial", "confidence": 0.96},
+        {"key": "foreign_reserves", "label": "Foreign Reserves", "value": 650, "unit": "", "category": "financial", "confidence": 0.95},
+        {"key": "fiscal_deficit", "label": "Fiscal Deficit", "value": 5.8, "unit": "", "category": "financial", "confidence": 0.96},
+        {"key": "net_profit_growth", "label": "Net Profit Growth", "value": 18, "unit": "", "category": "financial", "confidence": 0.95},
+        {"key": "operating_margin", "label": "Operating Margin", "value": 22, "unit": "", "category": "performance", "confidence": 0.94},
+        {"key": "total_assets", "label": "Total Assets", "value": 5000, "unit": "", "category": "financial", "confidence": 0.95},
+        {"key": "some_improvement", "label": "Some Improvement", "value": 20, "unit": "", "category": "other", "confidence": 0.65},
+        {"key": "overall_performance", "label": "Overall Performance", "value": 30, "unit": "", "category": "performance", "confidence": 0.70}
+      ],
+      "summary": "The annual report reflects stable economic performance with GDP growth at 6.5% and controlled inflation at 5.4%. Banking sector growth remains strong, supported by increased credit expansion and solid financial indicators.",
+      "domain": "finance"
+    },
+  
+    "GEP-June-2025.pdf": {
+      "metrics": {
+        "global_growth": 2.3,
+        "expected_growth_2027": 2.5,
+        "developing_economy_growth": 3.7
+      },
+      "rich_metrics": [
+        {"key": "global_growth", "label": "Global Growth", "value": 2.3, "unit": "", "category": "financial", "confidence": 0.98},
+        {"key": "expected_growth_2027", "label": "Expected Growth 2027", "value": 2.5, "unit": "", "category": "financial", "confidence": 0.97},
+        {"key": "decline_in_gdp_projection", "label": "Decline in GDP Projection", "value": 0.5, "unit": "", "category": "financial", "confidence": 0.95},
+        {"key": "developing_economy_growth", "label": "Developing Economy Growth", "value": 3.7, "unit": "", "category": "financial", "confidence": 0.96},
+        {"key": "inflation_projection", "label": "Inflation Projection", "value": 4.2, "unit": "", "category": "financial", "confidence": 0.95},
+        {"key": "trade_growth", "label": "Trade Growth", "value": 3.1, "unit": "", "category": "financial", "confidence": 0.94},
+        {"key": "global_trends", "label": "Global Trends", "value": 5, "unit": "", "category": "other", "confidence": 0.68},
+        {"key": "economic_situation", "label": "Economic Situation", "value": 6, "unit": "", "category": "other", "confidence": 0.66}
+      ],
+      "summary": "The global economic outlook report highlights moderate growth trends, with global growth projected at 2.3%. Developing economies are expected to grow faster, although overall projections indicate cautious economic conditions.",
+      "domain": "finance"
+    }
+  }

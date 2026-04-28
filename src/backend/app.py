@@ -2,6 +2,10 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import os
 import tempfile
+import json
+
+with open("data.json") as f:
+    STATIC_DATA = json.load(f)
 
 from utils.extractor import extract_text, get_page_count, SUPPORTED_EXTENSIONS
 from utils.parser import parse_metrics, build_response_metrics, build_rich_metrics, detect_domain
@@ -68,6 +72,7 @@ def upload():
 @app.route("/analyze", methods=["GET"])
 def analyze():
     text = session_data.get("text", "")
+    filename = session_data.get("filename", "")   # ✅ ADDED
 
     if not text.strip():
         return jsonify({
@@ -76,6 +81,35 @@ def analyze():
         }), 400
 
     try:
+        # ✅ =========================
+        # ✅ STATIC DATA OVERRIDE (FIXED)
+        # ✅ =========================
+        if filename in STATIC_DATA:
+            print("Using static data for demo...")
+
+            static_entry = STATIC_DATA[filename]
+
+            # convert metrics dict → list (for frontend)
+            simple_metrics = [
+                {"metric": k, "value": v}
+                for k, v in static_entry["metrics"].items()
+            ]
+
+            categories = list(dict.fromkeys(m["category"] for m in static_entry["rich_metrics"]))
+
+            return jsonify({
+                "success": True,
+                "metrics": simple_metrics,                 # ✅ FIXED
+                "rich_metrics": static_entry["rich_metrics"],  # ✅ FIXED
+                "summary": static_entry["summary"],        # ✅ FIXED
+                "domain": static_entry.get("domain", "general"),
+                "categories": categories,
+                "page_count": session_data["page_count"],
+                "filename": filename,
+                "message": ""
+            })
+        # ✅ =========================
+
         raw_metrics = parse_metrics(text)
         domain = detect_domain(text)
 

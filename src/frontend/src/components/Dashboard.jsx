@@ -30,7 +30,8 @@ function formatLabel(str) {
 }
 
 function ConfidenceBar({ score }) {
-  const pct = Math.round(score * 100);
+  const safeScore = score > 1 ? score / 100 : score;
+  const pct = Math.round(safeScore * 100);
   const color = pct >= 80 ? "#22c55e" : pct >= 60 ? "#f59e0b" : "#f87171";
   return (
     <div className="conf-bar-wrap" title={`Confidence: ${pct}%`}>
@@ -59,14 +60,14 @@ export default function Dashboard({ data }) {
     let list = activeCategory === "all" ? rich_metrics : rich_metrics.filter(m => m.category === activeCategory);
     if (sortBy === "value")      list = [...list].sort((a, b) => b.value - a.value);
     if (sortBy === "confidence") list = [...list].sort((a, b) => b.confidence - a.confidence);
-    if (sortBy === "alpha")      list = [...list].sort((a, b) => a.label.localeCompare(b.label));
+    if (sortBy === "alpha") list = [...list].sort((a, b) => (a.label || a.metric).localeCompare(b.label || b.metric));
     return list;
   }, [rich_metrics, activeCategory, sortBy]);
 
   const exportCSV = () => {
     const header = "Metric,Value,Unit,Category,Confidence\n";
     const rows = rich_metrics.map(m =>
-      `"${m.label}",${m.value},"${m.unit}","${m.category}",${m.confidence}`
+      `"${(m.label || m.metric)}",${m.value},"${m.unit}","${m.category}",${m.confidence}`
     ).join("\n");
     const blob = new Blob([header + rows], { type: "text/csv" });
     const url = URL.createObjectURL(blob);
@@ -140,7 +141,7 @@ export default function Dashboard({ data }) {
                   <div className="kpi-card" key={m.key}>
                     <div className="kpi-top">
                       <span className="kpi-cat-dot" style={{ background: colors.dot }} />
-                      <span className="kpi-label">{m.label}</span>
+                      <span className="kpi-label">{(m.label || m.metric)}</span>
                     </div>
                     <span className="kpi-value">{formatValue(m.value, m.unit)}</span>
                     <ConfidenceBar score={m.confidence} />
@@ -189,7 +190,7 @@ export default function Dashboard({ data }) {
                     const colors = CATEGORY_COLORS[m.category] || CATEGORY_COLORS.other;
                     return (
                       <tr key={m.key}>
-                        <td>{m.label}</td>
+                        <td>{(m.label || m.metric)}</td>
                         <td className="td-value">{formatValue(m.value, m.unit)}</td>
                         <td>
                           <span className="cat-badge" style={{ background: colors.bg, color: colors.text }}>

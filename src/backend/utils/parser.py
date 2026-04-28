@@ -213,7 +213,7 @@ def build_rich_metrics(raw_metrics: dict) -> list:
             "value": meta["value"],
             "unit": meta["unit"],
             "category": meta["category"],
-            "confidence": round(meta["confidence"], 2),
+            "confidence": round(min(meta["confidence"], 1.0), 2),
         })
     # Sort by confidence desc, then value desc
     result.sort(key=lambda x: (-x["confidence"], -x["value"]))

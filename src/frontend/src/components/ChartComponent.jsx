@@ -11,9 +11,9 @@ const CATEGORY_COLORS = {
 };
 
 function formatLabel(str) {
+  if (!str) return "";
   return str.length > 18 ? str.slice(0, 16) + "…" : str;
 }
-
 export default function ChartComponent({ richMetrics = [], chartType = "bar" }) {
   const canvasRef = useRef(null);
   const chartRef = useRef(null);
@@ -24,7 +24,7 @@ export default function ChartComponent({ richMetrics = [], chartType = "bar" }) 
 
     if (chartRef.current) chartRef.current.destroy();
 
-    const labels = items.map(m => formatLabel(m.label));
+    const labels = items.map(m => formatLabel(m.metric));
     const values = items.map(m => m.value);
     const colors = items.map(m => CATEGORY_COLORS[m.category] || CATEGORY_COLORS.other);
 
