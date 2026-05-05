@@ -1,113 +1,148 @@
-DocDash AI — Weekly Report (Week 1)
-By Laxmi (Team Lead)
+Week 1
+
+Laxmi (Team Lead)
+
 Defined overall project idea and direction
 Initiated project documentation
 
-By Likhitha K (Customer Contact Lead)
+Likhitha K (Customer Contact Lead)
+
 Designed and created Google Form survey
 Distributed survey to target users (college staff, NGOs, healthcare staff)
 Began collecting initial responses
 
-By Swathi Shubas C (Frontend Developer)
+Swathi Shubas C (Frontend Developer)
+
 Started designing basic UI structure
 Created rough layout for dashboard interface
 
-By Varsha (Development Lead)
-Initiated backend architecture planning
-Worked on documentation (PPT, reports)
+Varsha (Backend Developer)
 
-By Nithya Jeevan M (Backend Developer)
-Began research on document processing methods
+Initiated backend architecture planning
+Contributed to documentation (PPT, reports)
+
+Nithya Jeevan M (Backend Developer)
+
+Researched document processing methods
 Explored techniques for extracting text and tables
 
-By Pramod V (Marketing Lead)
-Defined Ideal Customer Profile (ICP)
-Identified target users (administrators, managers, analysts)
+Pramod V (AI Models)
 
-By Rahul Kattimani (Test Lead)
-Identified key testing areas
-Planned basic testing approach for future modules
+Researched different AI/ML models suitable for document processing
+Explored tools like Tesseract OCR and EasyOCR for text extraction
 
-DocDash AI — Weekly Report (Week 2)
+Rahul Kattimani (Marketing Lead)
 
-By Laxmi (Team Lead)
+Identified initial outreach and positioning strategy
+Planned how to present product value to users
+
+Week 2
+
+Laxmi (Team Lead)
+
 Monitored team progress and ensured coordination
 Refined workflow based on initial development
 
-By Likhitha K (Customer Contact Lead)
+Likhitha K (Customer Contact Lead)
+
 Collected and reviewed survey responses
 Identified common user needs and pain points
 
-By Swathi Shubas C (Frontend Developer)
+Swathi Shubas C (Frontend Developer)
+
 Improved UI design based on initial ideas
-Built basic frontend screens for dashboard and upload
+Built basic frontend screens (dashboard + upload)
 
-By Varsha (Development Lead)
+Varsha (Backend Developer)
+
 Finalized backend structure for prototype
-Updated documentation with current progress
+Updated documentation with progress
 
-By Nithya Jeevan M (Backend Developer)
+Nithya Jeevan M (Backend Developer)
+
 Developed initial prototype for document upload
 Structured output data for display
 
-By Pramod V (Marketing Lead)
-Refined target user understanding using survey data
-Identified key problems the product should solve
+Pramod V (AI Models)
 
-By Rahul Kattimani (Test Lead)
-Checked initial data flow and functionality
-Identified areas needing improvement
+Compared performance of different OCR and parsing techniques
+Tested text extraction accuracy on sample documents
 
-Next Step 
-Improve prototype (not full system yet)
-Enhance data extraction accuracy (text + tables)
-Start simple KPI identification
-Improve dashboard visuals (basic charts)
-Test prototype more thoroughly
-Continue UI/UX improvements
+Rahul Kattimani (Marketing Lead)
 
-👩‍💼 Laxmi (Team Lead)
-Monitored team progress and ensured smooth coordination
-Refined workflow based on development feedback
-📞 Likhitha K (Customer Contact Lead)
-Collected and analyzed survey responses
-Identified user needs and common pain points
-🎨 Swathi Shubas C (Frontend Developer)
-Improved UI design based on early concepts
-Developed basic frontend screens for:
-Dashboard
-File upload
-⚙️ Varsha (Development Lead)
-Finalized backend structure for the prototype
-Updated project documentation with latest progress
-🧩 Nithya Jeevan M (Backend Developer)
-Built initial document upload functionality
-Structured extracted data for frontend display
-📢 Pramod V (Marketing Lead)
-Refined understanding of target users
-Identified key problems the solution addresses
-🧪 Rahul Kattimani (Test Lead)
-Tested initial workflow and system functionality
-Identified bugs and areas for improvement
+Researched user segments and positioning
+Prepared early promotion and presentation ideas
+
+Week 3
 
 Laxmi (Team Lead)
+
 Coordinated team tasks and tracked progress
-Ensured alignment with project goals and timelines
-📞 Likhitha K (Customer Contact Lead)
+Ensured alignment with project goals
+
+Likhitha K (Customer Contact Lead)
+
 Continued analyzing user feedback
-Validated improvements based on user expectations
-🎨 Swathi Shubas C (Frontend Developer)
+Validated improvements with user expectations
+
+Swathi Shubas C (Frontend Developer)
+
 Enhanced dashboard UI and layout
-Improved visual clarity and responsiveness
-⚙️ Varsha (Development Lead)
+Improved responsiveness and usability
+
+Varsha (Backend Developer)
+
 Guided backend improvements for extraction logic
-Updated documentation for new enhancements
-🧩 Nithya Jeevan M (Backend Developer)
+Optimized data flow between modules
+
+Nithya Jeevan M (Backend Developer)
+
 Implemented improved data processing and filtering
-Structured cleaner output for visualization
-📢 Pramod V (Marketing Lead)
+Generated cleaner structured output
+
+Pramod V (AI Models)
+
+Selected suitable approach for text + table extraction
+Started integrating chosen models into backend workflow
+
+Rahul Kattimani (Marketing Lead)
+
 Refined product positioning based on insights
-Highlighted key features valuable to users
-🧪 Rahul Kattimani (Test Lead)
-Conducted detailed testing with real documents
-Reported bugs and inconsistencies for fixes
+Highlighted key user benefits and features
+
+Week 4
+
+Laxmi (Team Lead)
+
+Oversaw final prototype improvements
+Ensured timely completion of tasks
+
+Likhitha K (Customer Contact Lead)
+
+Gathered final feedback on prototype
+Verified usability and clarity from users
+
+Swathi Shubas C (Frontend Developer)
+
+Improved dashboard visuals (basic charts & layout)
+Enhanced UI/UX for better user interaction
+
+Varsha (Backend Developer)
+
+Improved extraction accuracy (text + tables)
+Integrated backend with frontend smoothly
+
+Nithya Jeevan M (Backend Developer)
+
+Optimized data structuring for dashboard display
+Ensured consistent output formatting
+
+Pramod V (AI Models)
+
+Fine-tuned extraction logic for better accuracy
+Began implementing basic KPI identification from extracted data
+ 
+Rahul Kattimani (Marketing Lead)
+
+Prepared project presentation strategy
+Designed how to showcase product impact to judges/users
